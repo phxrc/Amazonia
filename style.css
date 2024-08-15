@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Questrial&display=swap');
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #0b6e4f;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #1a1a1a;
+    font-size: 24px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.carousel-item {
+    width: 150px;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    height: 235px;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05);
+}
+
+.newsletter {
+    background-color: #0B6E2F;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.newsletter h2 {
+    color: #1a1a1a;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    color: #363434;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #333;
+}
+
+h1 {
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.topico {
+    font-weight: 2px;
+}
